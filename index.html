@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Banking Form</title>
+  <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+  <header><h1>Loan Application Form</h1></header>
+  <div>
+    <form class="applicant-info">
+      <input type="text" name="FirstName" value="First Name">
+      <input type="text" name="MiddleInitial" value="Middle Initial">
+      <input type="text" name="LastName" value="Last Name">
+    </form>
+    <form class="address-info">
+      <input type="text" name="StreetAddress" value="Applicant Street Address">
+      <input type="text" name="City" value="Applicant City">
+      <input type="text" name="State" value="Applicant State">
+      <input type="text" name="Zipcode" value="Applicant Zipcode">
+    </form>
+    <form class="employer-info">
+      <input type="text" name="Employer" value="Applicant Employer">
+      <input type="text" name="EmployerStreet" value="Employer Street Address">
+      <input type="text" name="EmployerCity" value="Employer City">
+      <input type="text" name="EmployerState" value="Employer State">
+      <input type="text" name="EmployerZipcode" value="Employer Zipcode">
+    </form>
+    <form class="loan-type">
+      <select name="select" value="Select One">
+        <option value="value1">Commercial</option> 
+        <option value="value2">Real Estate</option>
+        <option value="value3">Personal</option>
+        <option value="value4">Mortgage</option>
+      </select>
+    </form>
+    <form class="loan-amt">
+      <input class="loan-input" type="text" name="loanamt" value="Requested Loan Amount">
+    </form>
+    <form>
+      <label>Loan Term:</label><br>
+      <input type="radio" name="term" value="5 years">5 years<br>
+      <input type="radio" name="term" value="15 years">15 years<br>
+      <input type="radio" name="term" value="30 years">30 years<br>
+    </form>
+    <br>
+    <form>
+      <label>Special Conditions:</label><br>
+      <label>
+      <input type="checkbox" id="chbox1" value="dwnpymnt">I have a downpayment</label><br>
+      <input type="checkbox" id="chbox2" value="outofstate"> <label for="chbox2">I am an out-of-state resident</label><br>
+      <input type="checkbox" id="chbox3" value="married"> <label for="chbox3">I am married<br></label>
+      <input type="checkbox" id="chbox4" value="cosign"> <label for="chbox4">Loan will be Co-signed</label><br>
+    </form>
+    <form class="email">
+      <input type="email" name="appemail" id="emailRequired" value="Applicant E-mail" required>
+    </form>
+    <form class="phone">
+      <input type="tel" name="apptel" value="Applicant Phone">
+    </form>
+    <form class="url">
+      <input type="url" name="linkedin" value="Applicant LinkedIn URL">
+    </form>
+  </div>
+  <button type="submit">Apply</button>
+</body>
+</html>

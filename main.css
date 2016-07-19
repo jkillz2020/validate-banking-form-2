@@ -1,0 +1,50 @@
+body{
+  background-color: papayawhip;
+}
+
+.applicant-info{
+  margin: 5px;
+}
+
+.address-info{
+  margin: 5px;
+}
+
+.employer-info{
+  margin: 5px;
+}
+
+.loan-type{
+  margin-bottom: 25px;
+  margin-left: 5px;
+  margin-top:10px;
+}
+
+.loan-amt{
+  margin: 5px;
+  padding-right: 5px;
+}
+
+.loan-input{
+  padding-right: 12px;
+}
+
+#emailRequired:valid{
+  color:green;
+}
+
+#emailRequired:invalid{
+  color: red;
+}
+
+.email{
+  margin: 5px;
+}
+
+.phone{
+  margin: 5px;
+}
+
+.url{
+  margin: 5px;
+}
